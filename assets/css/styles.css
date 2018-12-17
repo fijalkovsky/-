@@ -32,16 +32,22 @@ body, html {
 
 .navbar-light .navbar-toggler {
 	border: none;
+	margin: 10px;
 }
 
 /*HOME*/
 .jumbotron {
-	background-color: #e6ddde;
+	/*background-color: #e6ddde;*/
+	background-image: url("../images/mount-pink.svg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: .2;
   	height: 100vh;
 
 }
 
-.home {
+/*.home {
 	font-family: 'Playfair Display', serif;
 	line-height: 1.2;
 	font-weight: bold;
@@ -50,10 +56,10 @@ body, html {
 }
 
 .home-text {
-	font-size: 7rem;
+	font-size: 3rem;
 	color: #fff;
-
 }
+*/
 
 /*ABOUT*/
 #about {
