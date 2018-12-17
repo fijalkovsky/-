@@ -91,6 +91,14 @@ body, html {
 	margin: 10px;
 }
 
+@media (max-width: 576px) { 
+	.about-cont {
+	font-size: .7rem;
+	margin: 0;
+	margin-bottom: 10px;
+	}
+}
+
 
 .about-image {
 	width: 12rem;
@@ -182,8 +190,18 @@ ul.timeline > li:before {
 	padding: 20px;
 	position: relative;
 	width: 18rem;
+	text-align: center;
 }
 
+@media (max-width: 992px) { 
+	.exp-cont {
+		width: 50rem;
+	}
+
+	.exp-cont p {
+    	font-size: 16px;
+	}
+}
 
 .exp-cont a {
 	position: absolute;
