@@ -181,6 +181,7 @@ ul.timeline > li:before {
 	margin: 30px;
 	padding: 20px;
 	position: relative;
+	width: 18rem;
 }
 
 
